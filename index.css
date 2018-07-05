@@ -1,0 +1,35 @@
+body {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+td {
+  border: 3px solid green;
+  width:7vw;
+  height:7vw;
+  border-radius: 10vw;
+  background-color: darkgrey;
+}
+.redHover:hover {
+  background-color: grey;
+}
+table {
+  border: 3px solid black;
+  border-spacing: 1vw;
+  background: rgb(131,58,180);
+  background: -webkit-linear-gradient(left, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+  background: -o-linear-gradient(left, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+  background: linear-gradient(to right, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+}
+
+#button {
+  display:none;
+  width: 15vw;
+  height: 5vw;
+  background-color: teal;
+  justify-content: center;
+  color:white;
+  border-radius: 1vw;
+  margin:20px;
+}
